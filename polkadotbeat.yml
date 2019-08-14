@@ -5,6 +5,8 @@
 polkadotbeat:
   # Defines how often an event is sent to the output
   period: 1s
+  polkadot_host: "localhost"
+  polkadot_port: "9933"
 
 #================================ General =====================================
 

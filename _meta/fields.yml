@@ -1,9 +1,19 @@
 - key: polkadotbeat
   title: polkadotbeat
-  description:
+  description: Polkadot ChainState
   fields:
-    - name: counter
+    - name: blockNumber
       type: long
       required: true
       description: >
-        PLEASE UPDATE DOCUMENTATION
+        Current block number on this node.
+    - name: peerCount
+      type: long
+      required: true
+      description: >
+        Number of connected peers.
+    - name: highestBlockNumber
+      type: long
+      required: true
+      description: >
+        Highest block number known by peers.

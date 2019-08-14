@@ -7,6 +7,8 @@ import "time"
 
 type Config struct {
 	Period time.Duration `config:"period"`
+	PolkadotHost string `config:"polkadot_host"`
+	PolkadotPort string `config:"polkadot_port"`
 }
 
 var DefaultConfig = Config{

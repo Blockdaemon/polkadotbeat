@@ -4,4 +4,6 @@
 
 polkadotbeat:
   # Defines how often an event is sent to the output
-  period: 1s
+  period: 30s
+  polkadot_host: "polkadot"
+  polkadot_port: "9933"
